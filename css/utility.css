@@ -1,0 +1,43 @@
+.border {
+    border: 2px solid white;
+}
+
+.gaps {
+    height: 2vw;
+}
+
+.separator {
+    height: 2px;
+    background: linear-gradient(90deg, #41E0FF, #C558FF);
+
+}
+
+/* ---------- PERFECT THEME MATCHING SCROLLBAR ---------- */
+
+/* For Chrome, Edge, Safari */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0B1624; /* exact website background */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #41E0FF, #C558FF); /* exact website gradient */
+    border-radius: 10px;
+    border: 2px solid #0B1624;
+    box-shadow: 0 0 8px rgba(65, 224, 255, 0.4);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    box-shadow: 0 0 12px rgba(65, 224, 255, 0.7);
+    filter: brightness(1.1);
+}
+
+/* ---------- Firefox Scrollbar ---------- */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #41E0FF #0B1624;
+}

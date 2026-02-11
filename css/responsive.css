@@ -1,0 +1,648 @@
+/* responsive.css */
+
+/* Tablet Devices (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+    body {
+        width: 95vw;
+    }
+    
+    header>img {
+        width: 20vw;
+    }
+    
+    header>ul {
+        gap: 2vw;
+        font-size: clamp(14px, 1.8vw, 30px);
+    }
+    
+    header>ul>li {
+        padding: 5px 15px;
+    }
+    
+    .FIRST {
+        margin-top: 6vw;
+    }
+    
+    .headings>h1 {
+        font-size: 5vw;
+    }
+    
+    .headings>h2 {
+        font-size: 2.5vw;
+    }
+    
+    .images>img {
+        width: 35vw;
+    }
+    
+    .left-logos>img,
+    .right-logos>img {
+        width: 8vw;
+    }
+    
+    .first-fossil>h2 {
+        font-size: 1.8vw;
+    }
+    
+    .fossil-info {
+        font-size: 1.5vw;
+    }
+    
+    .THIRD>h1 {
+        font-size: 2.5em;
+    }
+    
+    .evo-slide {
+        height: 350px;
+    }
+    
+    .evo-slide img {
+        width: 250px;
+    }
+    
+    .phase {
+        height: 350px;
+    }
+    
+    .normal-person>h1,
+    .mountain-person>h1 {
+        font-size: 3.5vw;
+    }
+    
+    .normal-person>p,
+    .mountain-person>p {
+        font-size: 1.8vw;
+    }
+    
+    .normal-person>h2,
+    .mountain-person>h2 {
+        font-size: 2.5vw;
+    }
+    
+    .starting-quiz>h1 {
+        font-size: 6vw;
+    }
+    
+    .starting-quiz>h2 {
+        font-size: 3vw;
+    }
+    
+    .starting-quiz>button {
+        font-size: 2.5vw;
+    }
+    
+    .score>h3 {
+        font-size: 2.5vw;
+    }
+    
+    .question>p {
+        font-size: 3vw;
+    }
+    
+    .option {
+        font-size: 2.5vw;
+    }
+    
+    .result>h1 {
+        font-size: 7vw;
+    }
+    
+    .circle-container {
+        --size: 25vw;
+    }
+    
+    .center-text {
+        font-size: 6vw;
+    }
+    
+    .result>button {
+        font-size: 2.5vw;
+    }
+    
+    .endpage>h1 {
+        font-size: 6vw;
+    }
+    
+    .endpage>p {
+        font-size: 2.5vw;
+    }
+    
+    figure>img {
+        width: 6vw;
+    }
+    
+    .credit {
+        font-size: 2vw;
+    }
+    
+    .design {
+        font-size: 2vw;
+    }
+}
+
+/* Mobile Devices (480px - 767px) */
+@media screen and (max-width: 767px) {
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    
+    header {
+        width: 100%;
+        padding: 10px;
+        background-color: rgba(11, 22, 36, 0.95);
+    }
+    
+    header>img {
+        width: 30vw;
+    }
+    
+    header>ul {
+        display: none;
+    }
+    
+    .hamburger {
+        display: block;
+    }
+    
+    .hamburger>img {
+        width: 8vw;
+        min-width: 30px;
+        margin-right: 3vw;
+    }
+    
+    .FIRST {
+        padding: 0 10px;
+    }
+    
+    .headings>h1 {
+        font-size: 8vw;
+        text-align: center;
+        margin-top: 8vw;
+        margin-right: 3vw;
+    }
+    
+    .headings>h2 {
+        font-size: 4vw;
+        text-align: center;
+    }
+    
+    .images {
+        flex-direction: column;
+        gap: 5vw;
+    }
+    
+    .images>img {
+        width: 60vw;
+        order: 1;
+    }
+    
+    .left-logos,
+    .right-logos {
+        flex-direction: row;
+        gap: 10vw;
+        width: 100%;
+        order: 2;
+    }
+    
+    .left-logos>img,
+    .right-logos>img {
+        width: 15vw;
+    }
+    
+    .FIRST>button {
+        font-size: 4vw;
+        padding: 15px 30px;
+    }
+    
+    .fossil-images {
+        margin-top: 30vw;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 10px;
+    }
+    
+    .first-fossil,
+    .second-fossil {
+        width: 80%;
+        margin-right: 4vw;
+
+    }
+    
+    .first-fossil {
+        height: auto;
+        padding: 15px;
+        gap: 20px;
+    }
+    
+    .first-fossil>h2 {
+        font-size: 4vw;
+    }
+    
+    .fossil-info {
+        flex-direction: column;
+        gap: 15px;
+        padding: 0 10px;
+    }
+    
+    .age,
+    .type,
+    .fact {
+        width: 90% !important;
+        font-size: 3.5vw;
+        padding: 15px;
+    }
+    
+    .THIRD {
+        padding: 0 10px;
+    }
+    
+    .THIRD>h1 {
+        margin-top: 30vw;
+        font-size: 6vw;
+        text-align: center;
+    }
+    
+    .human-evolution {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .evo-slide {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .evo-slide img {
+        width: 200px;
+    }
+
+    .evo-slide h2 {
+        font-size: 8vw;
+    }
+    
+    .phase {
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    .phase>button {
+        font-size: 3.5vw;
+    }
+    
+    .FOURTH {
+        flex-direction: column;
+        gap: 30px;
+        padding: 0 10px;
+        height: auto;
+        margin-top: 30vw;
+    }
+    
+    .normal-person,
+    .mountain-person {
+        width: 100%;
+        gap: 15px;
+        margin: 10vw 0;
+    }
+    
+    .normal-person>img,
+    .mountain-person>img {
+        height: 200px;
+    }
+
+    .display-percent {
+        font-size: 10vw;
+    }
+    
+    .line {
+        width: 90%;
+        height: 10px;
+        flex-direction: row;
+    }
+    
+    .next>img {
+        width: 8vw;
+        transform: translateX(-50%);
+        top: 0;
+        left: 50%;
+    }
+    
+    .normal-person>h1,
+    .mountain-person>h1 {
+        font-size: 6vw;
+    }
+    
+    .normal-person>p,
+    .mountain-person>p {
+        font-size: 3.5vw;
+        text-align: center;
+    }
+    
+    .normal-person>h2,
+    .mountain-person>h2 {
+        font-size: 4vw;
+    }
+    
+    .whole {
+        width: 90%;
+        height: 25px;
+    }
+    
+    .FIFTH {
+        padding: 0 10px;
+        margin: 30vw 0;
+    }
+    
+    .starting-quiz>h1 {
+        font-size: 8vw;
+        text-align: center;
+    }
+    
+    .starting-quiz>h2 {
+        font-size: 4vw;
+        width: 100%;
+    }
+    
+    .starting-quiz>button {
+        font-size: 4vw;
+        padding: 15px 30px;
+    }
+    
+    .main-quiz {
+        width: 100%;
+    }
+    
+    .score {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .score>h3 {
+        width: 100%;
+        font-size: 4vw;
+    }
+    
+    .score>.total-score {
+        width: 100%;
+        height: 15px;
+    }
+    
+    .question>p {
+        font-size: 4.5vw;
+        margin: 4vw 0;
+    }
+    
+    .options {
+        gap: 10px;
+    }
+    
+    .upper,
+    .lower {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .option {
+        width: 90%;
+        font-size: 4vw;
+        padding: 5vw;
+    }
+    
+    .result {
+        width: 100%;
+    }
+    
+    .result>h1 {
+        font-size: 8vw;
+        text-align: center;
+        margin-bottom: 5vw;
+    }
+    
+    .circle-container {
+        --size: 60vw;
+    }
+    
+    .progress-ring circle {
+        stroke-width: 8%;
+    }
+    
+    .center-text {
+        font-size: 10vw;
+    }
+    
+    .result>button {
+        font-size: 4vw;
+        padding: 15px 30px;
+        margin: 5vw 0;
+    }
+    
+    .SIXTH {
+        padding: 0 10px;
+    }
+    
+    .SIXTH>.endpage {
+        width: 100%;
+    }
+    
+    .endpage>h1 {
+        font-size: 6vw;
+    }
+    
+    .endpage>p {
+        font-size: 3.5vw;
+    }
+    
+    figure {
+        gap: 10vw;
+    }
+    
+    figure>img {
+        width: 10vw;
+    }
+    
+    .credit {
+        font-size: 3vw;
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .design {
+        font-size: 3vw;
+    }
+}
+
+/* Small Mobile Devices (320px - 479px) */
+@media screen and (max-width: 479px) {
+    .headings>h1 {
+        font-size: 9vw;
+    }
+    
+    .headings>h2 {
+        font-size: 4.5vw;
+    }
+    
+    .FIRST>button {
+        font-size: 4.5vw;
+    }
+    
+    .first-fossil>h2 {
+        font-size: 5vw;
+    }
+    
+    .age,
+    .type,
+    .fact {
+        font-size: 4vw;
+    }
+    
+    .THIRD>h1 {
+        font-size: 7vw;
+    }
+    
+    .evo-slide {
+        height: 250px;
+    }
+    
+    .evo-slide img {
+        width: 150px;
+    }
+    
+    .normal-person>h1,
+    .mountain-person>h1 {
+        font-size: 7vw;
+    }
+    
+    .normal-person>p,
+    .mountain-person>p {
+        font-size: 4vw;
+    }
+    
+    .normal-person>h2,
+    .mountain-person>h2 {
+        font-size: 5vw;
+    }
+    
+    .starting-quiz>h1 {
+        font-size: 9vw;
+    }
+    
+    .starting-quiz>h2 {
+        font-size: 4.5vw;
+    }
+    
+    .starting-quiz>button {
+        font-size: 4.5vw;
+    }
+    
+    .score>h3 {
+        font-size: 5vw;
+    }
+    
+    .question>p {
+        font-size: 5vw;
+    }
+    
+    .option {
+        font-size: 4.5vw;
+    }
+    
+    .result>h1 {
+        font-size: 9vw;
+    }
+    
+    .circle-container {
+        --size: 70vw;
+    }
+    
+    .center-text {
+        font-size: 12vw;
+    }
+    
+    .result>button {
+        font-size: 4.5vw;
+    }
+    
+    .endpage>h1 {
+        font-size: 7vw;
+    }
+    
+    .endpage>p {
+        font-size: 4vw;
+    }
+    
+    figure>img {
+        width: 12vw;
+    }
+    
+    .credit {
+        font-size: 3.5vw;
+    }
+    
+    .design {
+        font-size: 3.5vw;
+    }
+}
+
+/* Landscape Mode for Mobile */
+@media screen and (max-height: 600px) and (orientation: landscape) {
+    .FIRST {
+        margin-top: 20vw;
+    }
+    
+    .images>img {
+        width: 40vw;
+    }
+    
+    .left-logos>img,
+    .right-logos>img {
+        width: 10vw;
+    }
+    
+    .first-fossil,
+    .phase,
+    .evo-slide {
+        height: 250px;
+    }
+    
+    .normal-person>img,
+    .mountain-person>img {
+        height: 150px;
+    }
+    
+    .circle-container {
+        --size: 40vw;
+    }
+}
+
+/* Prevent horizontal scrolling on mobile */
+@media screen and (max-width: 767px) {
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    
+    * {
+        max-width: 100%;
+    }
+}
+
+/* Fix for iOS Safari */
+@supports (-webkit-touch-callout: none) {
+    body {
+        height: -webkit-fill-available;
+    }
+    
+    html {      
+        height: -webkit-fill-available;
+    }
+}
+
+/* Fix for very large screens
+@media screen and (min-width: 1920px) {
+    body {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+} */

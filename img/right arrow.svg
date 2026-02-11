@@ -1,0 +1,48 @@
+<svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- Background gradient ONLY INSIDE circle -->
+    <radialGradient id="circleBG" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#0B1624" />
+      <stop offset="100%" stop-color="#112032" />
+    </radialGradient>
+
+    <!-- Neon gradient for arrow + circle -->
+    <linearGradient id="neon" x1="0" y1="0" x2="150" y2="0">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="50%" stop-color="#8C00FF"/>
+      <stop offset="100%" stop-color="#00C8FF"/>
+    </linearGradient>
+
+    <!-- Glow -->
+    <filter id="neonGlow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <!-- Circle background (only inside circle) -->
+  <circle cx="75" cy="75" r="48" fill="url(#circleBG)" />
+
+  
+  <circle cx="75" cy="75" r="48" 
+          stroke="url(#neon)"
+          stroke-width="4" 
+          fill="none"
+          filter="url(#neonGlow)" />
+
+  
+  <path 
+    d="M55 75 H95 M95 75 L85 65 M95 75 L85 85"
+    stroke="url(#neon)"
+    stroke-width="6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    filter="url(#neonGlow)"
+  />
+</svg>
