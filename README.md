@@ -57,12 +57,6 @@ This project helps learners understand:
 
 ---
 
-## 📸 Project Preview
-
-> An interactive science exhibition designed for students to make learning evolution fun and engaging.
-
----
-
 ## 👨‍💻 Creator
 
 **Designed & Developed by Arhaan Ahmed**  
