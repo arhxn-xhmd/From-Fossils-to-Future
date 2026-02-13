@@ -59,8 +59,8 @@ This project helps learners understand:
 
 ## 🌐 Live Demo
 
-💘 View the live website here:  
-👉 https://arhxn-xhmd.github.io/crush-proposal/
+🌍 View the live website here:  
+👉 https://arhxn-xhmd.github.io/From-Fossils-to-Future/
 
 ---
 
